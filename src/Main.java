@@ -67,10 +67,10 @@ public class Main {
         } else if (mode == 2) {
             experiment.runAllExperiments();
         } else {
-            System.out.println("Invalid mode");
+            System.out.println("invalid mode");
         }
 
-            scanner.close();
-        }
-
+        scanner.close();
     }
+
+}
